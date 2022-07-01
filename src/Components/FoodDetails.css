@@ -7,6 +7,8 @@
   .productDetails{
     display: flex;
     margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 30px;
   }
   .product{
     margin-left: 10px;
@@ -15,8 +17,22 @@
   table, th, td {
     border: 1px solid;
     border-collapse: collapse;
-    margin-top: 13px;
+    margin-top: 20px;
     border-color: #000000;
   }
   
-  
+  @media only screen and (max-width: 600px) {
+    table{
+ 
+      font-size: 10.8px;
+      margin: 2%;
+      
+    }
+    
+
+    .Container{
+      width: 70%;
+      font-size: 10px;
+      margin: 0%;
+    }
+  }

@@ -22,14 +22,19 @@ return (
     <div className='Container'>           
       <div className='productDetails'>
         <img src={Icon} alt="icon" />          
-        <h3 className='product'>{details.product_name}</h3>          
+        <h3 className='product'>{details.product_name} ({details.generic_name})</h3>          
       </div>
       
       <table>  
-        <tbody>
+        <tbody> 
+        <tr>
+        <th>Category</th>
+        <th>Value</th>
+        </tr>
           {Object.keys(details).map((key, index) => {
             return (
-              <tr key={index}>                  
+              <tr key={index}>
+                               
                 <td>{key}</td>
                 <td>{details[key]}</td>                  
               </tr>                         

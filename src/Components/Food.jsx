@@ -18,7 +18,7 @@ export default function Food() {
     }, []);
 
     return (
-        <>
+        <div className='food-box'>
             <div className='lists'>
                 <div className='left'>Food List</div>
                 <div className='right'>Favourites</div>
@@ -37,6 +37,6 @@ export default function Food() {
 
             </div>
            
-        </>
+        </div>
     )
 }
