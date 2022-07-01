@@ -1,0 +1,52 @@
+.head{
+    background-color: teal;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid yellowgreen; */
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+input{
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.headLeft{
+    width: 25%;
+    /* border: 2px solid navy; */
+    margin-left: 20px;
+}  
+.headRight
+{
+    width: 25%;
+    margin-right: 20px;
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .head{
+       width: 100%;
+        border: 2px soild red;
+    
+    }
+    .headLeft{
+        width: 5%;
+        margin-left: 20px;
+        border: 2px soild red;
+    
+    }
+
+    .headRight
+{
+    width: 10%;
+    margin-right: 20px;
+    border: 2px soild red;
+   
+}
+
+  }
+

@@ -1,0 +1,22 @@
+
+  .Container{
+    width: 95%;
+    margin: auto;
+  }
+  
+  .productDetails{
+    display: flex;
+    margin-top: 20px;
+  }
+  .product{
+    margin-left: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-top: 13px;
+    border-color: #000000;
+  }
+  
+  
